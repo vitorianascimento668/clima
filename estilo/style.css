@@ -1,0 +1,149 @@
+
+body{
+    background-color:#2A2A2A;
+    margin:0;
+    padding: 0;
+    color:white;
+    font-size:30px;
+}
+h1{
+    font-size:40px;
+}
+form{
+    margin-top: -10px;
+
+}
+input{
+    width: 200px;
+    height:20px;
+    border-radius:10%;
+
+}
+
+small{
+    font-size: 15px;
+}
+footer{
+    margin-top:15px;
+    font-size:15px;
+}
+.conteiner{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+.container-1{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+.inputebotao{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+ .botao_busca{
+    cursor: pointer;
+    background-color: grey;
+    width: 50px;
+    font-size: 15px;
+    height: 25px;
+    margin-left: 30px;
+    border: 2px solid #222;
+    border-radius: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+.caixa_respota{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.temperatura{
+    margin-left:20px;
+
+}
+.tamanhopequeno{
+
+    font-size:15px;
+    color:grey;
+    margin-bottom: 0px;
+
+}
+.imagem-temperatura img{
+    width:50px;
+    height:50px;
+    
+}
+.vento{
+    margin-left: 50px;
+}
+.nome-estado{
+    font-size:30px;
+    margin-top: 10px;
+}
+.imagem-vento,.imagem-temperatura{
+    width:100px;
+    height:100px;
+}
+.sol,.cinza {
+    background: yellow;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+
+}
+.cinza{
+    background: rgb(190, 190, 190);
+    
+}
+.contaier-resposta{
+    border:3px solid rgb(0, 0, 0);
+    box-shadow: 3px 3px #222; 
+    display:none;
+    margin-right: 40px;
+    text-align: center;
+    background-color:#222;
+}
+.valor-temperatura,.valor-vento{
+    margin-top: 0px;
+    font-weight: bold;
+
+}
+.aguarde,.error{
+    display:none;
+    font-size:15px;
+}
+
+#imagem{
+    display:none;
+}
+.imagem-vento{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border:3px solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    display:none;
+
+
+}
+.imagem-vento-ponteiro{
+    transform: rotate(100deg);
+    width: 1px;
+    height: 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
+    border-bottom-color: white;
+    background-color:black;
+
+}

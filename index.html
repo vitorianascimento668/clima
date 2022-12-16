@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style.css">
+
+    <title>Consulta Meterologica</title>
+</head>
+<body>
+    <div class="conteiner">
+        <h1>Clima</h1>
+        <div class="inputebotao">
+            <form action="">
+                <input type="text" placeholder="Digite o nome da cidade" >
+            </form>
+            <button class="botao_busca">
+                Buscar
+            </button>
+        </div>
+
+        <div class="aguarde">Carregando .... </div>
+        <div class="error">Error, valor digitado INVALIDO !</div>
+        <div class="contaier-resposta">
+            <div class="nome-estado"></div>
+            <div class="caixa_respota">
+                <div class="temperatura">
+                    <p class="tamanhopequeno">Temperatura</p>
+                    <p class="valor-temperatura">
+                       
+                    </p>
+                    <div class="imagem-temperatura ">
+                        <img src="" id="imagem"> 
+                    </div>
+                </div>
+                <div class="vento">
+                    <p class="tamanhopequeno">Vento</p>
+                    <p class="valor-vento"> <small>km/h</small></p>
+                    <div class="imagem-vento">
+                        <div class="imagem-vento-ponteiro"></div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <footer> Criado por Vitoria Nascimento</footer>
+    </div>
+    <script src="./js/javascript.js">
+
+    </script>
+
+</body>
+</html>
